@@ -1,0 +1,41 @@
+M is: 80
+Penalty_coef is: 5
+verify_rel_error.mean() is: 0.005859114
+fix_rel_error.mean() is: 0.0024841581
+训练好的神经网络为：'...\sig5bs128lr0.0005per8wModel_Iteration_399999_loss_2.686981315491721e-05.pt'
+
+
+M is: 80
+Penalty_coef is: 10
+verify_rel_error.mean() is: 0.005652679
+fix_rel_error.mean() is: 0.004589692
+训练好的神经网络为：'...\sig10bs128lr0.0005per8wModel_Iteration_399999_loss_0.00015959555457811803.pt'
+
+
+M is: 80
+Penalty_coef is: 15
+verify_rel_error.mean() is: 0.022433082
+fix_rel_error.mean() is: 0.013054887
+训练好的神经网络为：'...\sig15bs128lr0.0005per8wModel_Iteration_399999_loss_0.0006059806328266859.pt'
+
+
+M is: 80
+Penalty_coef is: 20
+verify_rel_error.mean() is: 0.020293117
+fix_rel_error.mean() is: 0.0116225835
+训练好的神经网络为：'...\sig20bs128lr0.0005per8wModel_Iteration_399999_loss_0.0014217487769201398.pt'
+
+
+M is: 80
+Penalty_coef is: 22
+verify_rel_error.mean() is: 0.01660291
+fix_rel_error.mean() is: 0.009664214
+训练好的神经网络为：'...\sig22bs128lr0.0005per8wModel_Iteration_399999_loss_0.0015466627664864063.pt'
+
+
+M is: 80
+Penalty_coef is: 25
+verify_rel_error.mean() is: 0.033070974
+fix_rel_error.mean() is: 0.016017571
+训练好的神经网络为：'...\sig25bs128lr0.0005per8wModel_Iteration_399999_loss_0.0022337613627314568.pt'
+

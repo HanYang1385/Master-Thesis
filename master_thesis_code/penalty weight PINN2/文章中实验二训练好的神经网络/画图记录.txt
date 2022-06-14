@@ -1,0 +1,55 @@
+训练好的神经网络为：'...\Model_Iteration_79999_loss_0.08777207136154175.pt'
+
+M is: 20
+verify_rel_error.mean() is: 0.18074602
+fix_rel_error.mean() is: 0.10866635
+new_rel_error is: 0.0931524858407095
+
+M is: 30
+verify_rel_error.mean() is: 0.18517458
+fix_rel_error.mean() is: 0.11556614
+new_rel_error is: 0.0916546367689547
+
+M is: 40
+verify_rel_error.mean() is: 0.18701692
+fix_rel_error.mean() is: 0.119872
+new_rel_error is: 0.09110930870319235
+
+M is: 50
+verify_rel_error.mean() is: 0.18798546
+fix_rel_error.mean() is: 0.12275484
+new_rel_error is: 0.09094575471126241
+
+M is: 60
+verify_rel_error.mean() is: 0.18856752
+fix_rel_error.mean() is: 0.1248119
+new_rel_error is: 0.09087104198196172
+
+M is: 70
+verify_rel_error.mean() is: 0.18894923
+fix_rel_error.mean() is: 0.12635042
+new_rel_error is: 0.09092193851626017
+
+M is: 80
+verify_rel_error.mean() is: 0.18921538
+fix_rel_error.mean() is: 0.12754685
+new_rel_error is: 0.09093716613247864
+
+M is: 90
+verify_rel_error.mean() is: 0.18940966
+fix_rel_error.mean() is: 0.12850161
+new_rel_error is: 0.09095802162719167
+
+M is: 100
+verify_rel_error.mean() is: 0.1895566
+fix_rel_error.mean() is: 0.1292806
+new_rel_error is: 0.09099122677022535
+
+
+## far field
+np_norm_fix_Xsr = norm_fix_Xsr.numpy()
+ind = np.argwhere(np_norm_fix_Xsr<1.0)
+new_rel_error = (fix_rel_error.sum()-fix_rel_error[ind[:,0]].sum()) / (fix_rel_error.size - fix_rel_error[ind[:,0]].size)
+
+
+

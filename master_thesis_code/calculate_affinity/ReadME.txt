@@ -1,0 +1,2 @@
+先运行precondition_and_calaff.m，再运行plottopvalues.m
+期间可在top.m中修改top k的值

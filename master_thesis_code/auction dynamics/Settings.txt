@@ -1,0 +1,2 @@
+dim: 3, phases number: 4, points: 40, wide: 0.025000
+eps_0: 0.002000, rate: 2.000000, eps_min: 0.000400, iteration step: 20, delta_t: 0.000100
