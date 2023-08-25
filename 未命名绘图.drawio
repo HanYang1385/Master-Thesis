@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-08-25T05:46:16.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rvV3mhrp6AXukdM4Rxsp" version="21.6.9" type="github">
+  <diagram name="第 1 页" id="gNK5m4l3bMAqwkd_NIeU">
+    <mxGraphModel dx="1154" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WVM6WrKOS19sIysvP3dc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-1" target="WVM6WrKOS19sIysvP3dc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-1" value="Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-2" target="WVM6WrKOS19sIysvP3dc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-2" value="指标、时间、地点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-4" target="WVM6WrKOS19sIysvP3dc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-4" value="LLM理解的事件集（事件关联、增加查询范围）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="300" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-6" target="WVM6WrKOS19sIysvP3dc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-6" value="数据湖查询" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVM6WrKOS19sIysvP3dc-8" value="查询结果送给大模型分析" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="892.5" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
