@@ -1,14 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T03:32:48.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ERl8wDqkl_jmeElRNr7L" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:50:55.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0kEdPTb3HuiDwvqQloQ2" version="21.6.9" type="github">
   <diagram name="第 1 页" id="gNK5m4l3bMAqwkd_NIeU">
     <mxGraphModel dx="1222" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-LSn-SNoInrinLJxSUY6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-1" target="WVM6WrKOS19sIysvP3dc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WVM6WrKOS19sIysvP3dc-1" value="Query" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="300" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-LSn-SNoInrinLJxSUY6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-2" target="WVM6WrKOS19sIysvP3dc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WVM6WrKOS19sIysvP3dc-2" value="（事件关联、增加查询范围）指标、时间、地点" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-LSn-SNoInrinLJxSUY6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WVM6WrKOS19sIysvP3dc-4" target="WVM6WrKOS19sIysvP3dc-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WVM6WrKOS19sIysvP3dc-4" value="LLM理解的事件集" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="300" width="125" height="60" as="geometry" />
@@ -17,10 +26,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WVM6WrKOS19sIysvP3dc-6" value="数据湖查询" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="692.5" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WVM6WrKOS19sIysvP3dc-8" value="查询结果送给大模型分析" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="892.5" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-LSn-SNoInrinLJxSUY6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-LSn-SNoInrinLJxSUY6-2" target="WVM6WrKOS19sIysvP3dc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-LSn-SNoInrinLJxSUY6-2" value="因果推断原子操作（多跳推理-事件路径），组成prompt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
