@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T09:20:25.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WlBc2zWo6nSgL8usY33b" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T09:20:50.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yhDYIaI9eV1UKuKBi_zl" version="21.7.0" type="github">
   <diagram name="第 1 页" id="gNK5m4l3bMAqwkd_NIeU">
     <mxGraphModel dx="1134" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,14 +260,14 @@
         <mxCell id="D89__wD17xrFu83PeIlh-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D89__wD17xrFu83PeIlh-64" target="D89__wD17xrFu83PeIlh-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D89__wD17xrFu83PeIlh-69" value="查询结果送给大模型分析" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="1">
+        <mxCell id="D89__wD17xrFu83PeIlh-69" value="LLM" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="672" y="1764" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D89__wD17xrFu83PeIlh-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D89__wD17xrFu83PeIlh-67" target="D89__wD17xrFu83PeIlh-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D89__wD17xrFu83PeIlh-71" value="因果推断（多跳推理-事件路径），组成prompt" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="592" y="1674" width="120" height="50" as="geometry" />
+        <mxCell id="D89__wD17xrFu83PeIlh-71" value="Causal inference (multi-hop reasoning-event path), composed of prompts" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="559" y="1674" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D89__wD17xrFu83PeIlh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
