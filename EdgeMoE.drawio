@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T03:23:37.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R-9Byj0EYDBL1yR5QV7Z" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T03:25:56.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cCr6eEC3mPEIav04wlX0" version="21.7.0" type="github">
   <diagram name="第 1 页" id="X71dtdaDnyFSEQu-oeWF">
     <mxGraphModel dx="934" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           <mxGeometry x="314" y="123" width="113" height="24" as="geometry" />
         </mxCell>
         <mxCell id="3g09cWAGolR1FiKy-nuo-23" value="Transformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="326" y="303" width="87" height="30" as="geometry" />
+          <mxGeometry x="331" y="287" width="87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3g09cWAGolR1FiKy-nuo-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="224.25" y="432.5" width="353" height="160.5" as="geometry" />
@@ -75,8 +75,8 @@
         <mxCell id="3g09cWAGolR1FiKy-nuo-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="390.75" y="229.75" width="20" height="351.5" as="geometry" />
         </mxCell>
-        <mxCell id="3g09cWAGolR1FiKy-nuo-35" value="Transformer Block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="314" y="368.5" width="113" height="24" as="geometry" />
+        <mxCell id="3g09cWAGolR1FiKy-nuo-35" value="MoE Block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344.25" y="367" width="113" height="24" as="geometry" />
         </mxCell>
         <mxCell id="3g09cWAGolR1FiKy-nuo-38" value="Attention" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="232" y="498.5" width="89" height="32" as="geometry" />
@@ -143,6 +143,9 @@
         </mxCell>
         <mxCell id="3g09cWAGolR1FiKy-nuo-68" value="Expert of Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="443.75" y="597" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3g09cWAGolR1FiKy-nuo-69" value="MoE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="623" width="87" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
