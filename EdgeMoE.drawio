@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T05:14:24.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Tc2F_Z6tCsyLHlwbmdSO" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T05:16:16.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="15N2q7KgClipDdktj-7M" version="21.7.0" type="github">
   <diagram name="第 1 页" id="X71dtdaDnyFSEQu-oeWF">
     <mxGraphModel dx="886" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,9 +210,6 @@
         <mxCell id="3g09cWAGolR1FiKy-nuo-95" value="Expert of Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="546" width="97" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="3g09cWAGolR1FiKy-nuo-96" value="All-to-All" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="357.75" y="738" width="60.5" height="11" as="geometry" />
-        </mxCell>
         <mxCell id="3g09cWAGolR1FiKy-nuo-105" value="Expert4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="406" y="679" width="69.5" height="23" as="geometry" />
         </mxCell>
@@ -339,8 +336,20 @@
         <mxCell id="3g09cWAGolR1FiKy-nuo-150" value="worker-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="176" y="722" width="56" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="3g09cWAGolR1FiKy-nuo-153" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="378" y="711" width="20" height="38" as="geometry" />
+        <mxCell id="3g09cWAGolR1FiKy-nuo-157" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="465.25" y="716" width="60.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="3g09cWAGolR1FiKy-nuo-154" value="All-to-All" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3g09cWAGolR1FiKy-nuo-157">
+          <mxGeometry y="18" width="60.5" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="3g09cWAGolR1FiKy-nuo-155" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="3g09cWAGolR1FiKy-nuo-157">
+          <mxGeometry x="20.25" y="-9" width="20" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3g09cWAGolR1FiKy-nuo-158" value="All-to-All" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360.75" y="734" width="60.5" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="3g09cWAGolR1FiKy-nuo-160" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="381" y="706" width="20" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
