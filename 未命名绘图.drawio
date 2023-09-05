@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T14:32:00.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ohqEfLma715kXHtDzyc_" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T14:32:25.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="83tAKS7IDrtJQjtciflX" version="21.7.1" type="github">
   <diagram name="第 1 页" id="gNK5m4l3bMAqwkd_NIeU">
     <mxGraphModel dx="2111" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -576,8 +576,11 @@
             <mxPoint x="-632" y="2751" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_FbC6okULITu4UNb7eIp-210" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="37" y="2772" width="753" height="170" as="geometry" />
+        <mxCell id="_FbC6okULITu4UNb7eIp-213" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="21" y="2867" width="753" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-210" value="" style="group" vertex="1" connectable="0" parent="_FbC6okULITu4UNb7eIp-213">
+          <mxGeometry width="753" height="170" as="geometry" />
         </mxCell>
         <mxCell id="_FbC6okULITu4UNb7eIp-181" value="LLM" style="whiteSpace=wrap;html=1;rounded=1;container=0;" vertex="1" parent="_FbC6okULITu4UNb7eIp-210">
           <mxGeometry x="633" y="87.5" width="120" height="60" as="geometry" />
@@ -639,13 +642,13 @@
             <mxPoint x="577.0000000000001" y="112" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_FbC6okULITu4UNb7eIp-211" value="结构化、半结构化、非结构化QA" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="161" y="3002" width="120" height="75" as="geometry" />
+        <mxCell id="_FbC6okULITu4UNb7eIp-211" value="结构化、半结构化、非结构化QA" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="_FbC6okULITu4UNb7eIp-213">
+          <mxGeometry x="134" y="220" width="120" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="_FbC6okULITu4UNb7eIp-212" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_FbC6okULITu4UNb7eIp-212" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="_FbC6okULITu4UNb7eIp-213">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="223" y="3000" as="sourcePoint" />
-            <mxPoint x="223" y="2923" as="targetPoint" />
+            <mxPoint x="186" y="216" as="sourcePoint" />
+            <mxPoint x="186" y="151" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
