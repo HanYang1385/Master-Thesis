@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T15:38:27.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="op4ecXPOK3OfFTk269Zx" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T15:48:18.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7k8QFjt5nPN-InEHaOhc" version="21.7.1" type="github">
   <diagram name="第 1 页" id="gNK5m4l3bMAqwkd_NIeU">
     <mxGraphModel dx="2625" dy="942" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -685,7 +685,25 @@
           <mxGeometry x="310" y="21" width="71" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_FbC6okULITu4UNb7eIp-239" value="&lt;span style=&quot;font-size: 29px;&quot;&gt;统计概况&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="-304" y="5079" width="253" height="200" as="geometry" />
+          <mxGeometry x="-361" y="5079" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-240" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="4828" width="739" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-243" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;离线阶段&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-775" y="4844" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-244" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;专家层量化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="4907" width="335" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-245" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;专家层激活量统计&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-394" y="4909" width="326" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-246" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-796" y="5313" width="747" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="_FbC6okULITu4UNb7eIp-247" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;在线阶段 （设备侧）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="5330" width="231" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
